@@ -17,7 +17,6 @@ export default function NewItem() {
     };
 
     console.log(item);
-
     alert(`Name: ${name}\nQuantity: ${quantity}\nCategory: ${category}`);
 
     setName("");
