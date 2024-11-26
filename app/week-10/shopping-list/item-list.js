@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 const ItemList = ({ items, onDeleteItem, onItemSelect }) => {
-  const [sortBy, setSortBy] = useState("name"); // Default sorting by name
+  const [sortBy, setSortBy] = useState("name"); 
 
   // Sort items based on "name" or "category"
   const sortedItems = [...items].sort((a, b) => {
